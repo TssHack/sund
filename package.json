@@ -4,6 +4,7 @@
   "description": "YouTube video metadata API using yt-dlp",
   "main": "index.js",
   "scripts": {
+    "postinstall": "chmod +x ./bin/yt-dlp",
     "start": "node index.js"
   },
   "keywords": [
