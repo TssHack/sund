@@ -1,5 +1,5 @@
 const express = require('express');
-const ytdlp = require('yt-dlp-exec');
+const ytdlp = require('yt-dlp-exec').create('./bin/yt-dlp');
 const app = express();
 const port = 3000;
 
